@@ -118,8 +118,8 @@ background:red;
 color:white;
 font-weight:bold;
 font-size:20px;
-padding:10px 15px;
-border-radius:8px;
-box-shadow:0 0 8px red;
+padding:6px 12px;
+border-radius:14px;
+box-shadow:0 0 6px red;
 animation:blink 1s infinite;
 }
