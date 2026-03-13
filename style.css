@@ -105,20 +105,21 @@ display:block;
 margin:0 auto;
 border-radius:8px;
 }
-.festival-tag{
-position:fixed;
-top:20px;
-right:20px;
-background:red;
-color:white;
-font-weight:bold;
-font-size:20px;
-padding:12px 20px;
-border-radius:8px;
-animation:blink 1s infinite;
-}
 @keyframes blink{
 0%{background:red;}
 50%{background:green;}
 100%{background:red;}
+}
+.festival-tag{
+position:absolute;
+top:150px;
+right:80px;
+background:red;
+color:white;
+font-weight:bold;
+font-size:20px;
+padding:14px 25px;
+border-radius:10px;
+box-shadow:0 0 15px red;
+animation:blink 1s infinite;
 }
