@@ -117,9 +117,8 @@ padding:12px 20px;
 border-radius:8px;
 animation:blink 1s infinite;
 }
-
 @keyframes blink{
-0%{opacity:1;}
-50%{opacity:0;}
-100%{opacity:1;}
+0%{background:red;}
+50%{background:green;}
+100%{background:red;}
 }
