@@ -105,3 +105,21 @@ display:block;
 margin:0 auto;
 border-radius:8px;
 }
+.festival-tag{
+position:fixed;
+top:20px;
+right:20px;
+background:red;
+color:white;
+font-weight:bold;
+font-size:20px;
+padding:12px 20px;
+border-radius:8px;
+animation:blink 1s infinite;
+}
+
+@keyframes blink{
+0%{opacity:1;}
+50%{opacity:0;}
+100%{opacity:1;}
+}
